@@ -1,0 +1,382 @@
+.fund-img{
+    width:100%;
+    height:auto;
+}
+
+.site-header-wrap {
+    padding: 40px 0px 40px;
+    background: #102b45;
+    width: 100%;
+}
+  
+.site-header {
+    max-width: 1000px;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+section{
+    opacity: 1;
+    z-index: 0;
+}
+
+.form-section{
+    /* margin-bottom:40px; */
+    margin-top:0px;
+    margin-left: -30px
+}
+/* .container-fluid{
+    padding-left:0;
+    padding-right:0;
+    overflow:hidden
+} */
+#submitButton{
+    display:none;
+}
+.buttonload {
+    margin: 30px auto auto auto;
+    display: block;
+    color: white !important;
+    text-transform: none !important;
+    background-color: #165D31;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.589108) !important;
+    border: none !important;
+    border-radius: 4px;
+    font-size: 20px !important;
+    font-weight: 300 !important;
+    height: 40px !important;
+    width: 150px !important;
+  }
+  .shareFoodSubmit {
+    margin: auto auto auto auto;
+    display: block;
+    color: white !important;
+    text-transform: none !important;
+    background-color: #165D31;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.589108) !important;
+    border: none !important;
+    border-radius: 4px;
+    font-size: 20px !important;
+    font-weight: 300 !important;
+    height: 40px !important;
+    width: 150px !important;
+  }
+  .fa-refresh {
+    margin-left: -12px;
+    margin-right: 8px;
+  }
+.funds-text{
+    color:#000;
+    font-size:16px;
+    line-height: 1.8em;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    float: left;
+    padding-left: 15px;
+    padding-right:60px;
+}
+.form-group{
+    margin-bottom:0px;
+}
+.selector{
+    background-color:transparent;
+    border: none !important;
+    border-bottom: 1px solid #979797 !important;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    height: 37px;
+    color:#767676;
+    padding: 5px 8px 10px !important;
+    width: 95% !important;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+.shareFoodSelector{
+    background-color:transparent;
+    border: none !important;
+    border-bottom: 1px solid #979797 !important;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    margin-top: 50px;
+    height: 37px;
+    color:#767676;
+    padding: 5px 8px 10px !important;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+    margin-left:5%;
+}
+.surplusfoodAlignment{
+    display:flex;
+}
+select:focus{
+    outline:none;
+}
+
+input:focus{
+    outline:none;
+}
+form{
+    padding-left:15px;
+    display: block;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+input{
+    border:none !important;
+    border-bottom: 1px solid #979797 !important;
+    box-sizing: border-box;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    height: 37px;
+    border-radius: 0;
+    color:#767676;
+    padding: 5px 12px 10px !important;
+    width: 95% !important;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+textarea{
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    color: #767676;
+    padding: 10px 12px;
+    background-color: #fdfdfd;
+    border: 1px solid #e3e3e3;
+    outline: 0;
+    margin-bottom: 4px;
+    vertical-align: top;
+}
+.form-textarea{
+    width:95%;
+    margin-top:10px;
+    box-sizing: border-box;
+}
+.voluntermain-heading{
+    padding-left:15px;
+    margin-top:50px;
+    font-size: 40px;
+    color: #000;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+.shareFoodSub-heading{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    text-align: left;
+}
+.sharefood-heading{
+    padding-left:15px;
+    margin-bottom:-15px;
+    margin-top:50px;
+    font-size: 23px;
+    color: #000;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+.voluntersub-heading{
+    padding-left:15px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom:20px;
+    font-size: 20px;
+    color: #393836;
+    font-weight: 300;
+    text-align: left;
+}
+.formcheckbox{
+    width:29px !important;
+    height:18px;
+    margin-right:1% !important;
+}
+.formcheckbox1{
+    width:17px !important;
+    height:18px;
+    margin-right:1% !important;
+}
+.checkbox-text{
+    color:black;
+    font-weight: 900;
+    font-size: 11px;
+    vertical-align: super;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    font-family: 'Lato', sans-serif;
+}
+.promise-text{
+    font-size: 20px;
+    margin-bottom:20px;
+    font-family: 'Lato', sans-serif;
+    color: #165D31 !important;
+    font-weight: 300;
+}
+.box{
+    background-color: rgba(22, 93, 49, .1);
+    padding: 25px;
+    font-size: 14px !important;
+    margin-bottom: 20px;
+    width:95%;
+}
+.box-text{
+    line-height: 1.5em;
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    color:black;
+    font-weight: 700;
+}
+.principletext-spacing{
+    margin-bottom:15px;
+}
+.box-subtext{
+    line-height: 1.5em;
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    color:black;
+    font-weight: 300;
+}
+
+.sharefood-img{
+    background-image: url("../Images/Thankyou.jpg");
+    width: 100%;
+    background-size:cover;
+    height:auto;
+    background-repeat:no-repeat;
+    background-position: center;  
+}
+
+select{
+    border-radius: 0;
+}
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+.form-mobileAlignment{
+    padding-top:2%; 
+}
+.volunterimg-spacing{
+    padding-left:0px;
+    padding-right: 0px;
+}
+.termsbox{
+    padding-right:60px;
+}
+.form-spacing{
+    padding-left: 20px;
+    padding-right: 4px;
+}
+.citizenServedText{
+    font-size:60px !important;
+    color:#1F6031;
+  }
+  .citizenServedNo{
+    font-size:60px !important;
+  }
+@media screen and (max-width: 768px){
+    .citizenServedText{
+        font-size:40px !important;
+        color:#1F6031;
+      }
+      .citizenServedNo{
+        font-size:40px !important;
+      }
+    .feedbackbg-img{display: none;}
+    .formcheckbox{
+        width:60px !important;
+        height:18px;
+        margin-right:3% !important;
+    }
+    .formcheckbox1{
+        width:31px !important;
+        height:18px;
+        margin-right:3% !important;
+    }
+    .form-spacing{
+        padding-left: 0px;
+        padding-right: 6px;
+    }
+    .volunterimg-spacing{
+        display: none;
+        padding-left:15px;
+        padding-right: 15px;
+    }
+    .termsbox{
+        padding-right:0px;
+    }
+    .container-fluid{
+        padding-left:15px;
+        padding-right:15px;
+        /* overflow:hidden */
+    }
+    .fund-img{
+        width:100%;
+        display: none;
+    }   
+    form{
+        padding-left:20px;
+        padding-bottom: 40px;
+    }
+    .voluntersub-heading {
+        padding-left: 20px;
+        font-size:20px;
+    }
+    .voluntermain-heading{
+        padding-left:20px;
+        font-size:30px;
+        margin-top:43px;
+    }
+    .sharefood-heading{
+        font-size: 18px;
+    }
+    .funds-text {
+        padding-left:40px;
+        padding-right:40px;
+    }
+}
+
+.volunter-textbox{
+    background-color: #B8F4D0;
+    padding: 30px 30px 30px 20px;
+    border: 2px solid #398f14;
+    border-radius: 5px;
+    color: black;
+    font-family: lato;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.shareFood-textbox{
+    padding: 30px 30px 30px 20px;
+    border-radius: 5px;
+    color: black;
+    font-family: lato;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+:disabled{
+    background-color:gray;
+}
+input[type="date"] {
+    border: none !important;
+    border-bottom: 1px solid #979797 !important;
+    box-sizing: border-box;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    color: #767676;
+    border-radius: 0;
+    outline:none;
+    font-family: 'Lato', sans-serif;
+    -webkit-appearance: none;
+}
